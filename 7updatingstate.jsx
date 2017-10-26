@@ -1,4 +1,4 @@
-// Thinking in Components  > Updating State
+// Stateful Components  > Updating State
 
 
 // the ids are the KEYS
@@ -70,15 +70,15 @@ var Counter = React.createClass({
     render: function() {
         return (
             <div className="counter">
-            <button className="counter-action decrement" onClick={this.decrementScore}>
-              -
-            </button>
-            <div className="counter-score">
-              {this.state.score}
-            </div>
-            <button className="counter-action increment" onClick={this.incrementScore}>
-              +
-            </button>
+              <button className="counter-action decrement" onClick={this.decrementScore}>
+                -
+              </button>
+              <div className="counter-score">
+                {this.state.score}
+              </div>
+              <button className="counter-action increment" onClick={this.incrementScore}>
+                +
+              </button>
           </div>
         );
     }

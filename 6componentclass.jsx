@@ -1,4 +1,4 @@
-// Thinking in Components  > Loops and Lists in JSX10:17
+// Stateful Components > Component Class
 
 
 // the ids are the KEYS
